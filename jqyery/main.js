@@ -7,7 +7,7 @@ jQuery(function() {
     (function() {
 
         // 「保存」クリックのアクション制御
-        $("input.send").click(function() {
+        $(":submit").click(function() {
 
             // クリックイベントに続いてsubmitイベントが発生する。
             // Ajaxを使用するためsubmitイベントは停止する。
