@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>Ajax form</title>
+<link rel="stylesheet" href="style.css" media="all">
+<script src="jquery-1.8.1.min.js"></script>
+<script src="ajax.js"></script>
+<script src="main.js"></script>
+</head>
+<body>
+    <div id="form-section-example" class="form-section">
+        <form id="myform" action="ajax.php" method="POST">
+            <div class="fields">
+                <textarea id="mytextarea" name="mytextarea"></textarea>
+                <input class="send" type="submit" value="保存" name="action">
+            </div>
+            <div class="message"></div>
+        </form>
+    </div>
+</body>
+</html>
