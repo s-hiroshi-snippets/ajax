@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>Ajax form</title>
+<script src="jquery-2.1.0.min.js"></script>
+<script src="main.js"></script>
+</head>
+<body>
+<h1>jQueryを使ったAjaxサンプル</h1>
+<p> jQuery v2.1.0を使用。IE6, 7, 8はサポートしていない。</p>
+<form id="myform" action="ajax.php" method="POST">
+    <div class="fields">
+        <textarea id="mytextarea" name="mytextarea"></textarea>
+        <input type="submit" value="保存">
+    </div>
+    <div id="message"></div>
+    <div id="#error"></div>
+</form>
+</body>
+</html>
